@@ -4,14 +4,17 @@ public class Launcher {
 
 	public static void main(String[] args) {
 		
-		//Schritt 1: Die einzelnen Konstruktoren der einzelnen Klassen aufrufen
+		/* Schritt 1: Die einzelnen Konstruktoren 
+		   der einzelnen Klassen aufrufen
+		*/
 		Vehicle 	vehicle1 		= new Vehicle();
 		Bike 		bike1 			= new Bike();
 		Car 		car1 			= new Car();
 		
-		//Schritt 2:	Obwohl die Eigenschaften "tyres", "price" und "color" nicht in den Klassen
-		// 				"Car" und "Bike" definiert wurden, können sie auf Grund der Vererbung von "Vehicle"
-		//				genutzt werden
+		/* Schritt 2: Obwohl die Eigenschaften "tyres", "price" und "color" nicht in den Klassen
+		   "Car" und "Bike" definiert wurden, können sie auf Grund der Vererbung von "Vehicle"
+			genutzt werden.
+		*/
 		
 		/*
 		System.out.println("\n#############\n");
@@ -34,6 +37,18 @@ public class Launcher {
 		car1.color = "schwarz";
 		System.out.println(car1.color);
 		*/
+		
+		/* Schritt 3: Auch Methoden der Elternklasse werden 
+		   automatisch vererbt und können aufgerufen werden
+		*/
+		/*
+		bike1.losfahren();
+		bike1.bremsen();
+		
+		car1.losfahren();
+		car1.bremsen();
+		*/
+		
+		
 	}
-
 }

@@ -13,4 +13,13 @@ public class Vehicle {
 		System.out.println("Preis: " + price);
 		System.out.println("Farbe: " + color);
 	}
+	
+	public void losfahren() {
+		System.out.println("Das " + this.getClass() + " fährt los!");
+	}
+	
+	public void bremsen() {
+		System.out.println("Das " + this.getClass() + " bremst jetzt!");
+	}
+	
 }
