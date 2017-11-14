@@ -6,4 +6,11 @@ public class Auto extends Fahrzeug {
 		System.out.println("Ich bin ein Auto.");
 	}
 	
+	/*
+	@Override
+	public void bremsen() {
+		super.bremsen();
+		System.out.println("Dazu trete ich das Bremspedal");
+	}
+	*/
 }

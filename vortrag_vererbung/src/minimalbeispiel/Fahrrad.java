@@ -6,4 +6,11 @@ public class Fahrrad extends Fahrzeug {
 		System.out.println("Ich bin ein Fahrrad.");
 	}
 
+	/*
+	@Override
+	public void bremsen() {
+		super.bremsen();
+		System.out.println("Dazu ziehe ich am Bremshebel!");
+	}
+	*/
 }
