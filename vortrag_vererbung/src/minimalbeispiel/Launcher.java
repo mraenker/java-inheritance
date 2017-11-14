@@ -7,48 +7,52 @@ public class Launcher {
 		/* Schritt 1: Die einzelnen Konstruktoren 
 		   der einzelnen Klassen aufrufen
 		*/
-		Vehicle 	vehicle1 		= new Vehicle();
-		Bike 		bike1 			= new Bike();
-		Car 		car1 			= new Car();
+		Fahrzeug 	fahrzeug1 		= new Fahrzeug();
+		Fahrrad 	fahrrad1		= new Fahrrad();
+		Auto 		auto1 			= new Auto();
 		
-		/* Schritt 2: Obwohl die Eigenschaften "tyres", "price" und "color" nicht in den Klassen
-		   "Car" und "Bike" definiert wurden, können sie auf Grund der Vererbung von "Vehicle"
+		
+		/* Schritt 2: Obwohl die Eigenschaften "reifen", "preis" und "farbe" nicht in den Klassen
+		   "Auto" und "Fahrrad" definiert wurden, können sie auf Grund der Vererbung von "Fahrzeug"
 			genutzt werden.
 		*/
 		
 		/*
 		System.out.println("\n#############\n");
 		
-		System.out.println(bike1.getClass());
-		bike1.tyres = 2;
-		System.out.println(bike1.tyres);
-		bike1.price = 20;
-		System.out.println(bike1.price);
-		bike1.color = "grün";
-		System.out.println(bike1.color);
+		System.out.println(fahrrad1.getClass());
+		fahrrad1.reifen = 2;
+		System.out.println(fahrrad1.reifen);
+		fahrrad1.preis = 20;
+		System.out.println(fahrrad1.preis);
+		fahrrad1.farbe = "grün";
+		System.out.println(fahrrad1.farbe);
 		
 		System.out.println("\n\n");
 		
-		System.out.println(car1.getClass());
-		car1.tyres = 4;
-		System.out.println(car1.tyres);
-		car1.price = 40000;
-		System.out.println(car1.price);
-		car1.color = "schwarz";
-		System.out.println(car1.color);
+		System.out.println(auto1.getClass());
+		auto1.reifen = 4;
+		System.out.println(auto1.reifen);
+		auto1.preis = 40000;
+		System.out.println(auto1.preis);
+		auto1.farbe = "schwarz";
+		System.out.println(auto1.farbe);
 		*/
+		
 		
 		/* Schritt 3: Auch Methoden der Elternklasse werden 
 		   automatisch vererbt und können aufgerufen werden
 		*/
 		/*
-		bike1.losfahren();
-		bike1.bremsen();
+		fahrrad1.losfahren();
+		fahrrad1.bremsen();
 		
-		car1.losfahren();
-		car1.bremsen();
+		auto1.losfahren();
+		auto1.bremsen();
 		*/
 		
+		/* Hinweis: Alle Methoden und Attribute können derzeit
+		/  auch an instanziiertem Objekt vehicle1 aufgerufen werden. */
 		
 	}
 }

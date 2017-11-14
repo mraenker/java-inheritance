@@ -1,17 +1,17 @@
 package minimalbeispiel;
 
-public class Vehicle {
+public class Fahrzeug {
 
-	int tyres = 0;
-	int price = 0;
-	String color = "keine Farbe";
+	int reifen = 0;
+	int preis = 0;
+	String farbe = "keine Farbe";
 	
-	public Vehicle() {
+	public Fahrzeug() {
 		System.out.println("\n");
 		System.out.println("Ich bin ein Vehikel.");
-		System.out.println("Räder: " + tyres);
-		System.out.println("Preis: " + price);
-		System.out.println("Farbe: " + color);
+		System.out.println("Räder: " + reifen);
+		System.out.println("Preis: " + preis);
+		System.out.println("Farbe: " + farbe);
 	}
 	
 	public void losfahren() {

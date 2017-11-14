@@ -1,8 +1,8 @@
 package minimalbeispiel;
 
-public class Car extends Vehicle{
+public class Auto extends Fahrzeug {
 
-	public Car() {
+	public Auto() {
 		System.out.println("Ich bin ein Auto.");
 	}
 	
