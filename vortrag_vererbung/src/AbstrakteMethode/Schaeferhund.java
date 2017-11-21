@@ -1,6 +1,6 @@
 package AbstrakteMethode;
 
-public class Schäferhund extends Hund{
+public class Schaeferhund extends Hund{
 
 	@Override
 	void bellen() {

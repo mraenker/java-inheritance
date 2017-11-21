@@ -4,7 +4,7 @@ public class Start {
 
 	public static void main(String[] args) {
 	
-		Säugetier Affe = new Säugetier("Joe", "Angie");
+		Saeugetier Affe = new Saeugetier("Joe", "Angie");
 		Affe.ausgeben();
 		
 

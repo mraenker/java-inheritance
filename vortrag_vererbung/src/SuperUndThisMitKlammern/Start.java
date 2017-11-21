@@ -4,13 +4,13 @@ public class Start {
 
 	public static void main(String[] args) {
 	
-		Säugetier Affe = new Säugetier("Joe", "Angie");
+		Saeugetier Affe = new Saeugetier("Joe", "Angie");
 		Affe.ausgeben();
 		
-		Säugetier Hund = new Säugetier("Bello");
+		Saeugetier Hund = new Saeugetier("Bello");
 		Hund.ausgeben();
 
-		Säugetier unbekannt = new Säugetier();
+		Saeugetier unbekannt = new Saeugetier();
 		
 		
 	}

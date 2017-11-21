@@ -1,15 +1,15 @@
 package SuperUndThisMitKlammern;
 
-public class Säugetier extends Lebewesen {
+public class Saeugetier extends Lebewesen {
 	
 	public String mutter = "Standardmutter";
 	
-	Säugetier(){
+	Saeugetier(){
 		super(true);
 	}
 	
 	
-	Säugetier(String name, String mutter){
+	Saeugetier(String name, String mutter){
 		super.name = name;
 		this.mutter = mutter;
 		
@@ -20,7 +20,7 @@ public class Säugetier extends Lebewesen {
 	}
 	
 	
-	Säugetier(String name){
+	Saeugetier(String name){
 		this(name, "keine Mutter");
 	}
 	

@@ -1,6 +1,6 @@
 package Modifikatoren;
 
-public class Bösewicht extends geheim{
+public class Boesewicht extends geheim{
 	
 	void modifizieren() {
 		super.msg = "verändert";

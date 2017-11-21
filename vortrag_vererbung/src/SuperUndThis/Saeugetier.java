@@ -1,14 +1,14 @@
 package SuperUndThis;
 
-public class Säugetier extends Lebewesen {
+public class Saeugetier extends Lebewesen {
 	
 	public String mutter = "Standardmutter";
 	
-	Säugetier(){
+	Saeugetier(){
 		
 	}
 	
-	Säugetier(String name, String mutter){
+	Saeugetier(String name, String mutter){
 		super.name = name;
 		this.mutter = mutter;
 		

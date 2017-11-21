@@ -6,7 +6,7 @@ public class Start {
 		Spion Holmes = new Spion();
 		Holmes.ausgeben();
 		
-		Bösewicht Dieb = new Bösewicht();
+		Boesewicht Dieb = new Boesewicht();
 		Dieb.modifizieren();
 		
 		
